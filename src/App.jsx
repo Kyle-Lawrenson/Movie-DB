@@ -1,4 +1,11 @@
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import './App.css'
+
+import Home from "./Pages/Home"
+import MyProfile from './Pages/MyProfile'
+import RegisterProfile from './Pages/RegisterProfile'
+import SearchMovie from './Pages/SearchMovie'
+import WatchList from './Pages/WatchList'
 
 const App = () => {
 
